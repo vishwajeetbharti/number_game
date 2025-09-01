@@ -1,7 +1,12 @@
 name: number_game
-description: "A new Flutter project."
-version: 0.0.1
-homepage:
+description: A fast and fun number puzzle game built with Flutter & Dart.
+version: 1.0.0+1
+
+# Provide links to help others and tooling locate your project
+homepage: https://github.com/vishwajeetbharti/number_game
+repository: https://github.com/vishwajeetbharti/number_game
+documentation: https://github.com/vishwajeetbharti/number_game#readme
+issue_tracker: https://github.com/vishwajeetbharti/number_game/issues
 
 environment:
   sdk: ^3.7.0
