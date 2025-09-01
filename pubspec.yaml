@@ -1,6 +1,6 @@
 name: number_game
 description: A fast and fun number puzzle game built with Flutter & Dart.
-version: 1.0.0+1
+version: 0.0.1
 
 # Provide links to help others and tooling locate your project
 homepage: https://github.com/vishwajeetbharti/number_game
