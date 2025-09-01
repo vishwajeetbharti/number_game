@@ -29,11 +29,11 @@ class GameHUD extends StatelessWidget {
   Widget build(BuildContext context) {
     final minutes = (timeLeft ~/ 60).toString().padLeft(2, '0');
     final seconds = (timeLeft % 60).toString().padLeft(2, '0');
-    final statusText = switch (status) {
-      GameStatus.playing => 'Playing',
-      GameStatus.won => 'Level Complete!',
-      GameStatus.lost => 'Time Up!',
-    };
+    // final statusText = switch (status) {
+    //   GameStatus.playing => 'Playing',
+    //   GameStatus.won => 'Level Complete!',
+    //   GameStatus.lost => 'Time Up!',
+    // };
 
     return Card(
       margin: const EdgeInsets.all(8),

@@ -39,7 +39,7 @@ class _GridCellWidgetState extends State<GridCellWidget> with SingleTickerProvid
         borderRadius: BorderRadius.circular(8),
         border: border,
         boxShadow: c.feedback == CellFeedback.valid
-            ? [BoxShadow(blurRadius: 6, spreadRadius: 0, offset: const Offset(0,2), color: Colors.black.withOpacity(0.06))]
+            ? [BoxShadow(blurRadius: 6, spreadRadius: 0, offset: const Offset(0,2), color: Colors.black38)]
             : const [],
       ),
       child: InkWell(

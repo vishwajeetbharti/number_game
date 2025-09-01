@@ -6,7 +6,6 @@ import '../../../../core/theme.dart';
 import '../../bloc/game_bloc.dart';
 import '../../bloc/game_event.dart';
 import '../../bloc/game_state.dart';
-import '../../domain/entities.dart';
 import '../widgets/game_hud.dart';
 import '../widgets/grid_cell.dart';
 
